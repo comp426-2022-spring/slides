@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>w10.00 Making Interface Design Decisions</title>
+
+		<link rel="stylesheet" href="./dist/reveal.css">
+		<link rel="stylesheet" href="./dist/theme/black.css" id="theme">
+
+    <link rel="stylesheet" href="./plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+                <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
+                    <script type="text/template">
+
+<!-- .slide: data-background-image="./source.png" data-background-opacity="0.4" data-background="#fff" -->
+
+# Making Interface Design Decisions
+## COMP 426 w10.00
+
+---
+
+## Agenda
+
+1. What is a human interface?
+2. Accessibility and Usability
+3. Components and features of an interface
+	1. Interactions
+	2. Use flows / pathways
+	3. Skeuomorphs
+	4. Information architecture
+4. How do we decide what goes into the interface?
+5. Specifying design parameters
+
+
+---
+
+<!-- .slide: data-background="#4287f5" -->
+
+## What is a human interface?
+
+--
+
+<!-- .slide: data-background="#081b38" -->
+
+## Doorknobs
+
+---
+
+<!-- .slide: data-background="#fff" -->
+
+## Accessibilty vs. Usability
+
+--
+
+## Accessibility AND Usability
+
+---
+
+## What makes up an interface?
+
+--
+
+## Interactions
+
+--
+
+## Use flows / pathways
+
+--
+
+## Skeuomorphs
+
+--
+
+## Information architecture
+
+---
+
+## How do we decide?
+
+---
+
+## Exercise:
+
+### Specifying design parameters
+
+[]()
+___
+
+                    </script>
+                </section>
+
+                <!-- No "extra" slides, since the separator can't be matched ("---" will become horizontal rulers) 
+                <section data-markdown data-separator="$x">
+                    <script type="text/template">
+                        A
+
+                        ---
+
+                        B
+
+                        ---
+
+                        C
+                    </script>
+                </section>
+                -->
+
+                <!-- Slide attributes 
+                <section data-markdown>
+                    <script type="text/template">
+                        <!-- .slide: data-background="#000000" 
+                        ## Slide attributes
+                    </script>
+                </section>
+                
+                <!-- Element attributes
+                <section data-markdown>
+                    <script type="text/template">
+                        ## Element attributes
+                        - Item 1 <!-- .element: class="fragment" data-fragment-index="2" 
+                        - Item 2 <!-- .element: class="fragment" data-fragment-index="1" 
+                    </script>
+                </section>
+                -->
+                <!-- Code 
+                <section data-markdown>
+                    <script type="text/template">
+                        ```php [1|3-5]
+                        public function foo()
+                        {
+                            $foo = array(
+                                'bar' => 'bar'
+                            )
+                        }
+                        ```
+                    </script>
+                </section>
+                -->
+                <!-- Images 
+                <section data-markdown>
+                    <script type="text/template">
+                        ![Sample image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
+                    </script>
+                </section>
+                -->
+
+                <!-- Math 
+                <section data-markdown>
+					## The Lorenz Equations
+					`\[\begin{aligned}
+					\dot{x} &amp; = \sigma(y-x) \\
+					\dot{y} &amp; = \rho x - y - xz \\
+					\dot{z} &amp; = -\beta z + xy
+					\end{aligned} \]`
+                </section>
+                -->
+
+            </div>
+		</div>
+
+		<script src="./dist/reveal.js"></script>
+        <script src="./plugin/markdown/markdown.js"></script>
+        <script src="./plugin/highlight/highlight.js"></script>
+        <script src="./plugin/notes/notes.js"></script>
+        <script src="./plugin/math/math.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+
+		</script>
+
+	</body>
+</html>
